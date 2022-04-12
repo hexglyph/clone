@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.glider-dots {
+  user-select: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+button.glider-dot {
+  display: block;
+  cursor: pointer;
+  color: #ccc;
+  border-radius: 4px;
+  background: #ccc;
+  width: 36px;
+  height: 3px;
+  margin: 8px;
+  transition: all 0.3s ease;
+}
+
+button.glider-dot:focus,
+button.glider-dot:hover {
+  outline: 1px solid #FFFFFF;
+  outline-offset: 4px;
+  background: #fff;
+}
+
+button.glider-dot.active {
+  background: #d02561
+}

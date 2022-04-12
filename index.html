@@ -1,0 +1,462 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Site - Daniel NieBraz - danielniebraz.dev</title>
+    <meta name="description"
+        content="Clone site - developed by Daniel Niebraz - danielniebraz.dev - using TailwindCSS" />
+    <meta name="keywords" content="Clone site, TailwindCSS, Daniel Niebraz, danielniebraz.dev" />
+    <meta name="author" content="Daniel Niebraz" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="1 day" />
+    <meta name="language" content="English" />
+    <meta name="copyright" content="Daniel Niebraz" />
+    <meta name="web_author" content="Daniel Niebraz" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="googlebot" content="Clone site, TailwindCSS, Daniel Niebraz, danielniebraz.dev" />
+    <meta name="google" content="nositelinkssearchbox" />
+    <meta name="msapplication-navbutton-color" content="#000000" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Clone Site by Daniel NieBraz" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        mechapink: '#d02561',
+                    }
+                }
+            },
+            plugins: [
+
+            ],
+        }
+    </script>
+    <link href="css/glider.css" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @layer base {
+            h1 {
+                @apply text-5xl pb-4 text-mechapink;
+            }
+
+            h2 {
+                @apply text-5xl pb-4 text-mechapink;
+            }
+
+            h3 {
+                @apply text-3xl pb-2 pt-2 text-white;
+            }
+
+            h4 {
+                @apply text-lg text-mechapink;
+            }
+
+            p {
+                @apply text-xl text-white py-2;
+            }
+            p.timeline {
+                @apply text-base text-white py-1;
+            }
+            p.timeline-info {
+                @apply text-sm text-white py-2;
+            }
+
+        }
+    </style>
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/init.js"></script>
+    <script src="js/glider.js"></script>
+</head>
+
+<body>
+    <div id="theme" class="flex flex-col bg-black justify-center items-center px-4">
+        <div id="container-top" class="container flex flex-col sm:w-full md:w-5/6 lg:w-3/4 xl:3/5">
+            <div id="nav-bar" class="flex w-full justify-start pt-2 pb-2 mb-8">
+                <div class="flex w-full justify-between items-center">
+                    <div id="nav-logo" class="flex justify-start items-center">
+                        <a href="index.html">
+                            <img src="https://themechasnft.com/assets/Mecha%20logo.png" alt="logo"
+                                class="h-12 w-12 m-0">
+                        </a>
+                    </div>
+                    <div id="nav-menu" class="flex justify-end items-center">
+                        <a href="index.html" class="text-mechapink hover:text-pink-700">Utilities</a>
+                        <a href="index.html" class="ml-4 text-mechapink hover:text-pink-700">Whitepaper</a>
+                        <a href="index.html" class="ml-4 text-mechapink hover:text-pink-700">Roadmap</a>
+                        <a href="index.html" class="ml-4 text-mechapink hover:text-pink-700">Rarity</a>
+                        <a href="index.html" class="ml-4 text-mechapink hover:text-pink-700">
+                            <img src="https://themechasnft.com/assets/icons/discord.png" alt="alternative text"
+                                class="w-8 h-auto">
+                        </a>
+                        <a href="index.html" class="ml-4 text-mechapink hover:text-pink-700">
+                            <img src="https://themechasnft.com/assets/icons/twitter.png" alt="alternative text"
+                                class="w-8 h-auto">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="content-top" class="flex flex-col w-full mt-4">
+                <div id="home-title" class="flex flex-col sm:flex-col md:flex-row lg:flex-row w-full py-4">
+                    <div class="flex sm:w-full md:w-1/2">
+                        <div id="" class="flex flex-col w-full">
+                            <h1>Enter the Mechaverse</h1>
+                            <h3>
+                                Mechas are advanced silica-based AI species building their world on blockchain.
+                            </h3>
+                            <p>
+                                Mechas are configurable, divided into factions, and have unique personality traits.
+                                These properties govern how a Mecha
+                                makes decisions, evolves, and breeds into a newer generation in the Mechaverse.
+                            </p>
+                            <p>
+                                This makes every Mecha a unique NFT.
+                            </p>
+                            <button class="rounded-lg bg-mechapink text-white py-2 my-4 text-2xl sm:w-1/2 md:w-4/5">
+                                Get Whitelisted
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex sm:w-full md:w-1/2">
+                        <div id="" class="flex w-full justify-end items-center">
+                            <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1645361260/Home1/Mecha-Home-1_admmvk.gif"
+                                alt="" class="rounded-[1.5rem] w-2/3">
+                        </div>
+                    </div>
+                </div>
+                <div id="home-fullwidth" class="flex flex-col sm:flex-col md:flex-row lg:flex-row w-full my-4">
+                    <div class="flex w-full">
+                        <div id="" class="flex flex-col w-full">
+                            <h2>We Represent</h2>
+                            <p>
+                                This project represents an idea:
+                                <br>
+                                "How an intelligent species will build their decentralized world with a social structure
+                                using blockchain”.
+                                <br>
+                                We want to build on this idea by providing an immersive and interactive thought
+                                experience that embraces storytelling
+                                and evolving into an open metaverse experience called Mechaverse.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="home-items" class="flex flex-col sm:flex-col md:flex-row lg:flex-row w-full my-4">
+                    <div class="flex flex-col w-full">
+                        <div id="" class="flex flex-col w-full">
+                            <h2>Utilities/Benefits</h2>
+                            <p>
+                                Owning a Mecha gives you access to these benefits:
+                            </p>
+                        </div>
+                        <div id="items"
+                            class="flex flex-wrap flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row w-full">
+                            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 bg-black py-8 px-2">
+                                <div class="flex items-center justify-center rounded-xl w-full bg-transparent">
+                                    <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1649056217/Home1/All-Utilities/1._Personalize_cj0rdz.png"
+                                        alt=""
+                                        class="rounded-xl h-auto w-full object-cover sm:w-full sm:h-auto md:h-full md:w-96">
+                                </div>
+                            </div>
+                            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 bg-black py-8 px-2">
+                                <div class="flex items-center justify-center rounded-xl w-full bg-transparent">
+                                    <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1649058345/Home1/All-Utilities/2_Egg_Hunts_ahx65w.png"
+                                        alt=""
+                                        class="rounded-xl h-auto w-full object-cover sm:w-full sm:h-auto md:h-full md:w-96">
+                                </div>
+                            </div>
+                            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 bg-black py-8 px-2">
+                                <div class="flex items-center justify-center rounded-xl w-full bg-transparent">
+                                    <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1649057220/Home1/All-Utilities/3._Breeding_mxyq6f.png"
+                                        alt=""
+                                        class="rounded-xl h-auto w-full object-cover sm:w-full sm:h-auto md:h-full md:w-96">
+                                </div>
+                            </div>
+                            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 bg-black py-8 px-2">
+                                <div class="flex items-center justify-center rounded-xl w-full bg-transparent">
+                                    <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1649057684/Home1/All-Utilities/4._Tokens_poluwi.png"
+                                        alt=""
+                                        class="rounded-xl h-auto w-full object-cover sm:w-full sm:h-auto md:h-full md:w-96">
+                                </div>
+                            </div>
+                            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 bg-black py-8 px-2">
+                                <div class="flex items-center justify-center rounded-xl w-full bg-transparent">
+                                    <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1649057864/Home1/All-Utilities/5.P2E_k04sg5.png"
+                                        alt=""
+                                        class="rounded-xl h-auto w-full object-cover sm:w-full sm:h-auto md:h-full md:w-96">
+                                </div>
+                            </div>
+                            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 bg-black py-8 px-2">
+                                <div class="flex items-center justify-center rounded-xl w-full bg-transparent">
+                                    <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1649058551/Home1/All-Utilities/6._Metaverse_urh0oq.png"
+                                        alt=""
+                                        class="rounded-xl h-auto w-full object-cover sm:w-full sm:h-auto md:h-full md:w-96">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="" class="flex flex-col w-full">
+                            <button
+                                class="rounded-lg bg-mechapink text-white py-2 my-8 ml-8 text-2xl sm:w-1/3 md:w-2/5 lg:w-1/5">
+                                Read Whitepaper
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carrossel" class="flex flex-col w-full h-96 relative my-10">
+            <div class="absolute w-full h-96 left-0 top-0">
+                <div class="glider-contain">
+                    <div class="glider">
+                        <div>
+                            <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1645302618/Home1/Slider/9-1226_yjha3p.png"
+                                width="300px" class="item" data-value="2" alt="">
+                        </div>
+                        <div>
+                            <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1645302618/Home1/Slider/9-1226_yjha3p.png"
+                                width="300px" class="item" data-value="2" alt="">
+                        </div>
+                        <div>
+                            <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1645302618/Home1/Slider/9-1226_yjha3p.png"
+                                width="300px" class="item" data-value="2" alt="">
+                        </div>
+                        <div>
+                            <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1645302618/Home1/Slider/9-1226_yjha3p.png"
+                                width="300px" class="item" data-value="2" alt="">
+                        </div>
+                        <div>
+                            <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1645302618/Home1/Slider/9-1226_yjha3p.png"
+                                width="300px" class="item" data-value="2" alt="">
+                        </div>
+                        <div>
+                            <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1645302618/Home1/Slider/9-1226_yjha3p.png"
+                                width="300px" class="item" data-value="2" alt="">
+                        </div>
+                        <div>
+                            <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1645302618/Home1/Slider/9-1226_yjha3p.png"
+                                width="300px" class="item" data-value="2" alt="">
+                        </div>
+                        <div>
+                            <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1645302618/Home1/Slider/9-1226_yjha3p.png"
+                                width="300px" class="item" data-value="2" alt="">
+                        </div>
+                        <div>
+                            <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1645302618/Home1/Slider/9-1226_yjha3p.png"
+                                width="300px" class="item" data-value="2" alt="">
+                        </div>
+                        <div>
+                            <img src="https://res.cloudinary.com/ddgvahgtx/image/upload/v1645302618/Home1/Slider/9-1226_yjha3p.png"
+                                width="300px" class="item" data-value="2" alt="">
+                        </div>
+
+                    </div>
+                    <div role="tablist" class="m-8 dots"></div>
+                </div>
+            </div>
+        </div>
+        <div id="container-bottom" class="container flex flex-col sm:w-full md:w-5/6 lg:w-3/4 xl:3/5">
+            <div id="content-bottom" class="flex flex-col w-full mt-4">
+                <div id="home-timelime" class="flex flex-col w-full my-4">
+                    <div class="flex w-full">
+                        <div id="" class="flex flex-col w-full">
+                            <h2>Roadmap</h2>
+                            <p>
+                                This roadmap outlines our plans for the project:
+                            </p>
+                        </div>
+                    </div>
+                    <div id="phase-1" class="flex w-full mt-8">
+                        <div class="flex flex-col w-full md:w-1/4 lg:w-1/4">
+                            <h3 class="text-mechapink text-2xl">Phase 1</h3>
+                            <p>
+                                <span class="text-mechapink text-2xl">Initial Sale & Interactie NFTs</span>
+                            </p>
+                            <p>
+                                <span class="text-mechapink text-2xl pt-4">Q2' 2022</span>
+                            </p>
+                        </div>
+                        <div class="flex flex-col w-full md:w-3/4 lg:w-3/4">
+                            <div class="timeline-item flex justify-center items-start w-full items-stretch">
+                                <div class="flex flex-col justify-center items-center px-4">
+                                    <div
+                                        class="timeline-point w-[18px] h-[20px] rounded-full border-2 border-mechapink border-solid">
+                                    </div>
+                                    <div class="timeline-line bg-white w-[2px] h-full"></div>
+                                </div>
+                                <div class="w-4/5 pb-4">
+                                    <h4>Minting:</h4>
+                                    <p class="timeline">Pre-sale for WL addresses, public sale followed by public reveal
+                                        on the secondary
+                                        market.</p>
+                                    <p class="timeline-info">Launch Dates: TBA on Discord.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item flex justify-center items-start w-full items-stretch">
+                                <div class="flex flex-col justify-center items-center px-4">
+                                    <div
+                                        class="timeline-point w-[18px] h-[20px] rounded-full border-2 border-mechapink border-solid">
+                                    </div>
+                                    <div class="timeline-line bg-white w-[2px] h-full"></div>
+                                </div>
+                                <div class="w-4/5 pb-4">
+                                    <h4>Rename Event:</h4>
+                                    <p class="timeline">Personalize your Mecha by adding an "on-chain" name or "alias"
+                                        to your Mecha.</p>
+                                    <p class="timeline">Every Mecha has unique personality and aesthetic traits and
+                                        deserves a nomenclature. We think calling NFTs by a name -
+                                        builts this unique connection between collectors and their NFTs. This alias also
+                                        adds a further layer of interactivity
+                                        in the Mechaverse.</p>
+                                    <p class="timeline-info">Live on our portal immediately after the public reveal.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item flex justify-center items-start w-full items-stretch">
+                                <div class="flex flex-col justify-center items-center px-4">
+                                    <div
+                                        class="timeline-point w-[18px] h-[20px] rounded-full border-2 border-mechapink border-solid">
+                                    </div>
+                                    <div class="timeline-line bg-white w-[2px] h-full"></div>
+                                </div>
+                                <div class="w-4/5 pb-4">
+                                    <h4>Egg Hunt:</h4>
+                                    <p class="timeline">Find eggs & keys hidden in artwork and properties. Use them to
+                                        solve riddles and win airdrops, NFTs & a grand prize.
+                                        Exclusive for Mecha NFT holders.</p>
+                                    <p class="timeline">Eggs and hidden references embedded in the artwork and metadata,
+                                        find eggs and keys, use them to solve 12 riddles and
+                                        gain access to an ETH wallet. Eggs bring an inbuilt gamification and
+                                        interactivity with our artwork and attract new
+                                        users to participate & be a part of Mechaverse.</p>
+
+                                    <p class="timeline-info">Eggs are already part of the artwork, Egg-hunt event will
+                                        start soon after the public reveal.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="phase-2" class="flex w-full mt-8">
+                        <div class="flex flex-col w-full md:w-1/4 lg:w-1/4">
+                            <h3 class="text-mechapink text-2xl">Phase 2</h3>
+                            <p>
+                                <span class="text-mechapink text-2xl">Token & P2E</span>
+                            </p>
+                            <p>
+                                <span class="text-mechapink text-2xl pt-4">Q3-Q4' 2022</span>
+                            </p>
+                        </div>
+                        <div class="flex flex-col w-full md:w-3/4 lg:w-3/4">
+                            <div class="timeline-item flex justify-center items-start w-full items-stretch">
+                                <div class="flex flex-col justify-center items-center px-4">
+                                    <div
+                                        class="timeline-point w-[18px] h-[20px] rounded-full border-2 border-mechapink border-solid">
+                                    </div>
+                                    <div class="timeline-line bg-white w-[2px] h-full"></div>
+                                </div>
+                                <div class="w-4/5 pb-4">
+                                    <h4>Token Distribution/ NFT Staking::</h4>
+                                    <p class="timeline">Token generation, distribution and airdrops of $MECHA tokens, We
+                                        may decide to distribute using NFT staking or simple
+                                        drops for Mecha NFT owners.</p>
+                                    <p class="timeline-info">More details on distribution and tokenomics will be
+                                        announced soon.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item flex justify-center items-start w-full items-stretch">
+                                <div class="flex flex-col justify-center items-center px-4">
+                                    <div
+                                        class="timeline-point w-[18px] h-[20px] rounded-full border-2 border-mechapink border-solid">
+                                    </div>
+                                    <div class="timeline-line bg-white w-[2px] h-full"></div>
+                                </div>
+                                <div class="w-4/5 pb-4">
+                                    <h4>An immersive & interactive P2E game:</h4>
+                                    <p class="timeline">An interactive, strategy P2E game, where choices made by
+                                        participants decide the outcome and
+                                        winning "Faction". Rewards
+                                        will be distributed to the winning "Faction". A P2E game where you don't need to
+                                        spend hours playing the
+                                        same
+                                        environment but rather all participants build a script of an episode in
+                                        Mechaverse. Think Bandersnatch +
+                                        Hunger Games.</p>
+
+                                    <p class="timeline-info">All choices and narratives will be provided and recorded by
+                                        a story generator AI,
+                                        continuously improving to generate
+                                        better episodes.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item flex justify-center items-start w-full items-stretch">
+                                <div class="flex flex-col justify-center items-center px-4">
+                                    <div
+                                        class="timeline-point w-[18px] h-[20px] rounded-full border-2 border-mechapink border-solid">
+                                    </div>
+                                    <div class="timeline-line bg-white w-[2px] h-full"></div>
+                                </div>
+                                <div class="w-4/5 pb-4">
+                                    <h4>Breeding:</h4>
+                                    <p class="timeline">Breed your Mechas to create a unique Mecha from a different
+                                        generation (both Minus and Plus Gens).</p>
+                                    <p class="timeline">We plan to show the evolution of Mechas using Minus and Plus
+                                        Gens. Depending upon the "Game Traits" of parent Mechas - a
+                                        new Mecha will be bred.</p>
+                                    <p class="timeline-info">All generations will have different design traits, new
+                                        factions & game traits.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="phase-3" class="flex w-full mt-8">
+                        <div class="flex flex-col w-full md:w-1/4 lg:w-1/4">
+                            <h3 class="text-mechapink text-2xl">Phase 3</h3>
+                            <p>
+                                <span class="text-mechapink text-2xl">Metaverse</span>
+                            </p>
+                            <p>
+                                <span class="text-mechapink text-2xl pt-4">Q4'2022 & Beyond</span>
+                            </p>
+                        </div>
+                        <div class="flex flex-col w-full md:w-3/4 lg:w-3/4">
+                            <div class="timeline-item flex justify-center items-start w-full items-stretch">
+                                <div class="flex flex-col justify-center items-center px-4">
+                                    <div
+                                        class="timeline-point w-[18px] h-[20px] rounded-full border-2 border-mechapink border-solid">
+                                    </div>
+                                    <div class="timeline-line bg-white w-[2px] h-full"></div>
+                                </div>
+                                <div class="w-4/5 pb-4">
+                                    <h4>Mechaverse Evolutions:</h4>
+                                    <p class="timeline">Metaverses should be beyond boundaries and limitless. Mechaverse
+                                        will be a one-of-its-kind unique metaverse experience:
+                                        open to creators, artists, developers and gamers to build and create
+                                        “experiences” in this metaverse.</p>
+                                    <p class="timeline">Mechaverse will evolve as a DAO, with Mechas NFT owners involved
+                                        in key decisions.</p>
+                                    <p class="timeline-info">See our whitepaper for our thoughts on how this will work.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
